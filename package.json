@@ -1,0 +1,25 @@
+{
+  "name": "fluentt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.5.1",
+    "axios": "^1.8.1",
+    "axios-cookiejar-support": "^5.0.5",
+    "cheerio": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "tough-cookie": "^5.1.2",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/fluentt",
+    "dev": "tsc && node ./dist/fluentt"
+  }
+}
